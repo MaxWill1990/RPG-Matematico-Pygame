@@ -11,13 +11,6 @@ def exibir_menu(tela):
         fundo = pygame.Surface((LARGURA_TELA, ALTURA_TELA))
         fundo.fill(PRETO)
 
-    # Adicionando um desenho na tela inicial
-    try:
-        desenho = pygame.image.load("assets/personagem.png")
-        desenho = pygame.transform.scale(desenho, (150, 150))
-    except:
-        desenho = None
-
     fonte_titulo = pygame.font.SysFont("Arial", 70, bold=True)
     fonte_opcao = pygame.font.SysFont("Arial", 45, bold=True)
 
@@ -58,9 +51,6 @@ def exibir_menu(tela):
             tela.blit(sombra_op, (LARGURA_TELA // 2 - sombra_op.get_width() // 2 + 3, pos_y + 3))
             tela.blit(txt_op, (LARGURA_TELA // 2 - txt_op.get_width() // 2, pos_y))
 
-        # Desenha o personagem, se disponível
-        if desenho:
-            tela.blit(desenho, (LARGURA_TELA // 2 - desenho.get_width() // 2, ALTURA_TELA // 2 - desenho.get_height() // 2))
 
         pygame.display.flip()
 

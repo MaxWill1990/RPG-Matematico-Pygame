@@ -154,7 +154,7 @@ while True:
                                 if som_ataque:
                                     som_ataque.play()
 
-                            alvo_tremor, tremor_frames, tempo_feedback = "inimigo", 30, 120
+                            alvo_tremor, tremor_frames, tempo_feedback = "inimigo", 30, 60
                             msg_feedback = "ACERTOU!"
                             inimigo_atual = img_boss_dano if fase_boss else img_ini_dano
                             acertos_seguidos += 1
@@ -183,7 +183,7 @@ while True:
                             if som_dano:
                                 som_dano.play()
 
-                            msg_feedback, tremor_frames, tempo_feedback = "ERROU!", 30, 120
+                            msg_feedback, tremor_frames, tempo_feedback = "ERROU!", 30, 60
                             heroi_atual = img_heroi_dano
                             inimigo_atual = img_boss_ataque if fase_boss else img_ini_ataque
                             alvo_tremor = "heroi"
@@ -234,7 +234,7 @@ while True:
                     som_dano.play()
                 msg_feedback = "TEMPO!"
                 tremor_frames = 30
-                tempo_feedback = 120
+                tempo_feedback = 60
                 heroi_atual = img_heroi_dano
                 alvo_tremor = "heroi"
                 inimigo_atual = img_boss_ataque if fase_boss else img_ini_ataque

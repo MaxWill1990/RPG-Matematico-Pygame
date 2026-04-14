@@ -21,7 +21,7 @@ def exibir_intro(tela):
     bg_escuro = pygame.transform.scale(bg_escuro, (LARGURA_TELA, ALTURA_TELA))
 
     # 2. Carregando e arrumando a PROPORÇÃO dos Retratos
-    altura_retrato = 300  # Altura ideal para encaixar certinho em cima da caixa de texto
+    altura_retrato = 360  # Altura ideal para encaixar certinho em cima da caixa de texto
 
     retrato_heroi_normal = pygame.image.load("assets/normalprincipal.png")
     retrato_heroi_normal = escalar_proporcional(retrato_heroi_normal, altura_retrato)
@@ -38,8 +38,8 @@ def exibir_intro(tela):
 
     # 3. Roteiro da Cena
     # AQUI ESTÁ A MUDANÇA: Diminuí os números para empurrar tudo para a esquerda!
-    pos_esq = -100  # Antes era 50
-    pos_dir = 350  # Antes era 450
+    pos_esq = -170  # Antes era 50
+    pos_dir = 320  # Antes era 450
 
     dialogos = [
         # 1º Mostra só o Max normal ouvindo
