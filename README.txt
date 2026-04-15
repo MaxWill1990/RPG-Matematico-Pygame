@@ -4,14 +4,20 @@ Este jogo nasceu de um desafio real durante as minhas aulas de ADS (Análise e D
 🎮 O Jogo
 O conceito é simples, mas desafiador: o seu conhecimento é o seu poder de ataque.
 
-<img width="1176" height="664" alt="Image" src="https://github.com/user-attachments/assets/b2a59deb-5368-4b5b-a89c-2f41274f0619" />
-
-
 Acertou o cálculo matemático? Você dá dano no inimigo.
 
 Errou a conta? O monstro contra-ataca e você perde HP.
 
 Foi a forma que encontrei de unir lógica de programação, matemática e diversão em um projeto só.
+
+
+![image alt](https://github.com/MaxWill1990/RPG-Matematico-Pygame/blob/c8e4b6e10b22f159d2ebf40743a65fa4f1759c5b/rpgmatgameplay%20(3).png)
+
+![image alt](https://github.com/MaxWill1990/RPG-Matematico-Pygame/blob/c8e4b6e10b22f159d2ebf40743a65fa4f1759c5b/rpgmatgameplay%20(2).png)
+
+![image alt](https://github.com/MaxWill1990/RPG-Matematico-Pygame/blob/c8e4b6e10b22f159d2ebf40743a65fa4f1759c5b/rpgmatgameplay%20(1).png)
+
+
 
 🛠️ Desafios e "Bugs" da Vida Real
 Quem olha o código pronto não imagina a correria que foi. Tive pouco tempo para entregar e enfrentei problemas que me fizeram quebrar a cabeça, como:
