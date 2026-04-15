@@ -4,6 +4,9 @@ Este jogo nasceu de um desafio real durante as minhas aulas de ADS (Análise e D
 🎮 O Jogo
 O conceito é simples, mas desafiador: o seu conhecimento é o seu poder de ataque.
 
+<img width="1176" height="664" alt="Image" src="https://github.com/user-attachments/assets/b2a59deb-5368-4b5b-a89c-2f41274f0619" />
+
+
 Acertou o cálculo matemático? Você dá dano no inimigo.
 
 Errou a conta? O monstro contra-ataca e você perde HP.
