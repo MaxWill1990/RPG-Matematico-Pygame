@@ -10,14 +10,11 @@ Errou a conta? O monstro contra-ataca e você perde HP.
 
 Foi a forma que encontrei de unir lógica de programação, matemática e diversão em um projeto só.
 
-
-![image alt](https://github.com/MaxWill1990/RPG-Matematico-Pygame/blob/c8e4b6e10b22f159d2ebf40743a65fa4f1759c5b/rpgmatgameplay%20(3).png)
-
-![image alt](https://github.com/MaxWill1990/RPG-Matematico-Pygame/blob/c8e4b6e10b22f159d2ebf40743a65fa4f1759c5b/rpgmatgameplay%20(2).png)
-
-![image alt](https://github.com/MaxWill1990/RPG-Matematico-Pygame/blob/c8e4b6e10b22f159d2ebf40743a65fa4f1759c5b/rpgmatgameplay%20(1).png)
-
-
+<div align="center">
+  <img src="rpgmatgameplay%20(3).png" width="300px">
+  <img src="rpgmatgameplay%20(2).png" width="300px">
+  <img src="rpgmatgameplay%20(1).png" width="300px">
+</div>
 
 🛠️ Desafios e "Bugs" da Vida Real
 Quem olha o código pronto não imagina a correria que foi. Tive pouco tempo para entregar e enfrentei problemas que me fizeram quebrar a cabeça, como:
